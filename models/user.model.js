@@ -13,7 +13,7 @@ const userSchema = new mongoose.Schema(
     },
     number: {
       type: String,
-     
+      required: true,
     },
   },
   { timestamps: true }
